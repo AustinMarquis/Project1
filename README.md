@@ -7,7 +7,7 @@ My first thingy
 ```
 Type              : Scratch
 Version           : 1.0.0
-Author            : AustinMarquis
+Author            : Austin Marquis
 Firmware          : 42
 ```
 
