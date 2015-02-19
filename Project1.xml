@@ -1,1 +1,26 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="1" x="-551" y="-168">
+    <next>
+      <block type="movement_stop" id="2">
+        <next>
+          <block type="movement_right" id="3">
+            <next>
+              <block type="movement_forward" id="4">
+                <next>
+                  <block type="led_select" id="29" inline="true">
+                    <field name="ACTION">ON</field>
+                    <next>
+                      <block type="oled_color" id="62">
+                        <field name="OBJECT">GREEN</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
